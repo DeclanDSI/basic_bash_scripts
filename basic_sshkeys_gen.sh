@@ -1,4 +1,10 @@
 #!/bin/bash
+usage () {
+echo "usage: $0 With arg - uses arg as filename"
+echo "usage: $0 Without arg - uses $USER as filename"
+}
+
+#usage
 
 directory="$HOME/.ssh"
 file="$HOME/.ssh/authorized_keys"
